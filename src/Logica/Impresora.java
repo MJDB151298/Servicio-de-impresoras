@@ -1,9 +1,10 @@
 package Logica;
 
-public class Impresora {
+public class Impresora extends Thread {
 
 	private String tipo;
 	private int num;
+	private volatile boolean isPrinting;
 	
 	public Impresora(String tipo, int num) {
 		super();
@@ -25,6 +26,10 @@ public class Impresora {
 
 	public void setNum(int num) {
 		this.num = num;
+	}
+
+	public void imprimir(){
+
 	}
 	
 	
