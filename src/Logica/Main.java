@@ -1,5 +1,6 @@
 package Logica;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -23,25 +24,24 @@ public class Main {
 		int cantidadB = sc.nextInt();
 
 		for(int i = 0; i < cantidadA; i++){
-			impresoras_a.add(new Impresora("A", 1));
+			impresoras_a.add(new Impresora("A", i+1));
 		}
 		for(int i = 0; i < cantidadB; i++){
-			impresoras_b.add(new Impresora("B", 1));
+			impresoras_b.add(new Impresora("B", i+1));
 		}
 
-		System.out.println("El size de las impresoras A es: " + impresoras_a.size());
-		System.out.println("El size de las impresoras B es: " + impresoras_b.size());
-
-
-		/**CODIGO ORIGINAL**/
-		Impresora imp1 = new Impresora("A", 8);
-		Impresora imp2 = new Impresora("B", 14);
-		Thread cent1 = new CentroImpresion(imp1);
-		Thread cent2 = new CentroImpresion(imp2);
-
+		System.out.println("Cuantos procesos desea utilizar?");
+		int cantidad_procesos = sc.nextInt();
+		ArrayList<CentroImpresion> centroImpresiones = new ArrayList<>();
+		for(int i = 0; i < cantidad_procesos; i++){
+			centroImpresiones.add(new CentroImpresion(impresoras_a, impresoras_b, i+1));
+		}
 		System.out.println("Iniciando Impresion");
-		cent1.start();
-		cent2.start();
+		for(CentroImpresion centroImpresion : centroImpresiones){
+			centroImpresion.start();
+		}
+
+
 	}
 
 }
