@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c123c6c-ea45-47ce-b284-2b49efcafd4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Logica/Trabajo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Logica/CentroImpresion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Logica/CentroImpresion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Logica/Impresora.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Logica/Impresora.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Logica/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Logica/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logica/CentroImpresion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logica/CentroImpresion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logica/Impresora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logica/Impresora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logica/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logica/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="7c123c6c-ea45-47ce-b284-2b49efcafd4f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
